@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+    <stop offset="0" stop-color="#11121c"/><stop offset="1" stop-color="#07080f"/>
+  </radialGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+  <linearGradient id="txt" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f4ede4"/><stop offset="1" stop-color="#fcd9a8"/>
+  </linearGradient>
+  <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="170" y1="0" x2="854" y2="0">
+    <stop offset="0" stop-color="#a9b8ff"/><stop offset="0.5" stop-color="#fbb33c"/><stop offset="1" stop-color="#ec6a3a"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.04"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.18"/>
+  </linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g filter="url(#blur)" opacity="0.85">
+  <circle cx="190" cy="230" r="260" fill="#a9b8ff" opacity="0.35"/>
+  <circle cx="860" cy="300" r="250" fill="#fbb33c" opacity="0.45"/>
+  <circle cx="620" cy="930" r="300" fill="#ec6a3a" opacity="0.5"/>
+</g>
+<g font-family="Inter Display" font-weight="900" font-size="380" text-anchor="middle" letter-spacing="-18">
+  <text x="512" y="548" fill="#fbb33c" opacity="0.35" filter="url(#glow)">GW</text>
+  <text x="512" y="548" fill="url(#txt)">GW</text>
+</g>
+<g fill="url(#wave)"><rect x="169.0" y="644.0" width="14" height="8.0" rx="7"/><rect x="193.0" y="642.6" width="14" height="10.8" rx="7"/><rect x="217.0" y="641.2" width="14" height="13.5" rx="7"/><rect x="241.0" y="641.9" width="14" height="12.2" rx="7"/><rect x="265.0" y="631.8" width="14" height="32.3" rx="7"/><rect x="289.0" y="635.8" width="14" height="24.3" rx="7"/><rect x="313.0" y="638.1" width="14" height="19.8" rx="7"/><rect x="337.0" y="622.3" width="14" height="51.4" rx="7"/><rect x="361.0" y="628.7" width="14" height="38.6" rx="7"/><rect x="385.0" y="629.1" width="14" height="37.8" rx="7"/><rect x="409.0" y="626.6" width="14" height="42.8" rx="7"/><rect x="433.0" y="612.9" width="14" height="70.2" rx="7"/><rect x="457.0" y="626.7" width="14" height="42.5" rx="7"/><rect x="481.0" y="631.5" width="14" height="33.0" rx="7"/><rect x="505.0" y="603.1" width="14" height="89.9" rx="7"/><rect x="529.0" y="629.7" width="14" height="36.7" rx="7"/><rect x="553.0" y="627.6" width="14" height="40.7" rx="7"/><rect x="577.0" y="614.5" width="14" height="67.0" rx="7"/><rect x="601.0" y="624.3" width="14" height="47.3" rx="7"/><rect x="625.0" y="629.4" width="14" height="37.3" rx="7"/><rect x="649.0" y="630.3" width="14" height="35.4" rx="7"/><rect x="673.0" y="621.2" width="14" height="53.7" rx="7"/><rect x="697.0" y="637.8" width="14" height="20.4" rx="7"/><rect x="721.0" y="636.6" width="14" height="22.9" rx="7"/><rect x="745.0" y="631.8" width="14" height="32.3" rx="7"/><rect x="769.0" y="641.4" width="14" height="13.1" rx="7"/><rect x="793.0" y="641.4" width="14" height="13.2" rx="7"/><rect x="817.0" y="642.7" width="14" height="10.6" rx="7"/><rect x="841.0" y="644.0" width="14" height="8.0" rx="7"/></g>
+<g fill="url(#wave)" filter="url(#glow)" opacity="0.6"><rect x="169.0" y="644.0" width="14" height="8.0" rx="7"/><rect x="193.0" y="642.6" width="14" height="10.8" rx="7"/><rect x="217.0" y="641.2" width="14" height="13.5" rx="7"/><rect x="241.0" y="641.9" width="14" height="12.2" rx="7"/><rect x="265.0" y="631.8" width="14" height="32.3" rx="7"/><rect x="289.0" y="635.8" width="14" height="24.3" rx="7"/><rect x="313.0" y="638.1" width="14" height="19.8" rx="7"/><rect x="337.0" y="622.3" width="14" height="51.4" rx="7"/><rect x="361.0" y="628.7" width="14" height="38.6" rx="7"/><rect x="385.0" y="629.1" width="14" height="37.8" rx="7"/><rect x="409.0" y="626.6" width="14" height="42.8" rx="7"/><rect x="433.0" y="612.9" width="14" height="70.2" rx="7"/><rect x="457.0" y="626.7" width="14" height="42.5" rx="7"/><rect x="481.0" y="631.5" width="14" height="33.0" rx="7"/><rect x="505.0" y="603.1" width="14" height="89.9" rx="7"/><rect x="529.0" y="629.7" width="14" height="36.7" rx="7"/><rect x="553.0" y="627.6" width="14" height="40.7" rx="7"/><rect x="577.0" y="614.5" width="14" height="67.0" rx="7"/><rect x="601.0" y="624.3" width="14" height="47.3" rx="7"/><rect x="625.0" y="629.4" width="14" height="37.3" rx="7"/><rect x="649.0" y="630.3" width="14" height="35.4" rx="7"/><rect x="673.0" y="621.2" width="14" height="53.7" rx="7"/><rect x="697.0" y="637.8" width="14" height="20.4" rx="7"/><rect x="721.0" y="636.6" width="14" height="22.9" rx="7"/><rect x="745.0" y="631.8" width="14" height="32.3" rx="7"/><rect x="769.0" y="641.4" width="14" height="13.1" rx="7"/><rect x="793.0" y="641.4" width="14" height="13.2" rx="7"/><rect x="817.0" y="642.7" width="14" height="10.6" rx="7"/><rect x="841.0" y="644.0" width="14" height="8.0" rx="7"/></g>
+<text x="524" y="812" font-family="Inter" font-weight="600" font-size="96" letter-spacing="34" text-anchor="middle" fill="#f4ede4" fill-opacity="0.9">STUDIO</text>
+</svg>
